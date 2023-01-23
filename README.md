@@ -30,13 +30,15 @@ import sys
 n = int(input())
 a = np.zeros((n,n+1))
 x = np.zeros(n)
+
 for i in range(n):
     for j in range(n+1):
         a[i][j] = float(input())
+
 for i in range(n):
     if a[i][j]==0.0:
-        sys.exit('divide by zero detected!')
-
+        sys.exit('divide by zeros detected!')
+        
 ## Output:
 
 ![gaussian elimination]()
