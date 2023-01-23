@@ -20,7 +20,6 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 
 ## Program:
 ```
-/*
 Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: M.Pavithra
 RegisterNumber: 22008686
@@ -31,11 +30,9 @@ import sys
 n = int(input())
 a = np.zeros((n,n+1))
 x = np.zeros(n)
-
 for i in range(n):
     for j in range(n+1):
         a[i][j] = float(input())
-
 for i in range(n):
     if a[i][j]==0.0:
         sys.exit('divide by zero detected!')
