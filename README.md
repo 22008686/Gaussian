@@ -25,6 +25,7 @@ Developed by: M.Pavithra
 RegisterNumber: 22008686
 
 ```
+```
 import numpy as np
 import sys
 n = int(input())
@@ -38,7 +39,7 @@ for i in range(n):
 for i in range(n):
     if a[i][j]==0.0:
         sys.exit('divide by zeros detected!')
-        
+```
 ## Output:
 
 ![gaussian elimination]()
